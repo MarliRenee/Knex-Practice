@@ -1,6 +1,4 @@
-INSERT INTO blogful_articles (title, date_published, content)
-
-VALUES
+INSERT INTO blogful_articles (title, date_published, content) VALUES
     ('The Eleventh Hour 1', now() - '21 days'::INTERVAL, 'yada yada'),
     ('The Beast Below', now() - '21 days'::INTERVAL, 'uada uada'),
     ('Victory of the Daleks', now() - '21 days'::INTERVAL,'iada iada'),
@@ -18,7 +16,5 @@ VALUES
     ('The Unicorn and the Wasp', now() - '5 days'::INTERVAL,'zada zada'),
     ('The Impossible Planet', now() - '5 days'::INTERVAL,'xada xada'),
     ('Blink', now() - '4 days'::INTERVAL,'cada cada'),
-    ('Forest of the Dead', now() - '4 days'::INTERVAL,'vada vada'),
+    ('Forest of the Dead', now() - '4 days'::INTERVAL,'vada vada')
 ;
-
-

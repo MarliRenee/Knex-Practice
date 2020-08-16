@@ -31,4 +31,5 @@ VALUES
     ('Bolphony sandwiches', 2.10, 'Lunch',      false,  now()),
     ('Chili non-carne', 5.88, 'Main',           true,   now()),
     ('Don''t go bacon my heart', 4.20, 'Main',  false,  now())
+
 ;
